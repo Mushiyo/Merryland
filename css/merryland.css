@@ -1,0 +1,89 @@
+body{
+	background-color: LightYellow ;
+}
+
+@media screen and (min-width:768px) {
+	.brand {
+        color: #005495;
+    }
+	
+	.brand a:link, .brand a:visited, .brand a:hover, .brand a:active {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.navbar .navbar-nav > :not(.active) > a{
+        color: #eee;
+    }
+
+	body{
+		background-image: url('../img/illust3727_thumb.gif'), url('../img/illust3741_thumb.gif'), url('../img/illust3797_thumb.gif'), url('../img/illust3799_thumb.gif'), url('../img/illust3745_thumb.gif');
+		background-size: 15%, 25%, auto, auto, contain;
+		background-position: 85% bottom, 4% bottom, 95% -10%, 5% top, bottom center;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 768px){
+	body{
+		background-image: url('../img/illust3723_thumb.gif');
+		background-size: contain;
+		background-position: center center;
+	}
+	
+	.navbar-inverse {
+	  background-color: #dd4814;
+	  border-color: #bf3e11;
+	}
+	.navbar-inverse .navbar-brand {
+	  color: #ffffff;
+	}
+	.navbar-inverse .navbar-brand:hover,
+	.navbar-inverse .navbar-brand:focus {
+	  color: #ffffff;
+	  background-color: none;
+	}
+	.navbar-inverse .navbar-text {
+	  color: #ffffff;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+	  color: #ffffff;
+	}
+	.navbar-inverse .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > li > a:focus {
+	  color: #ffffff;
+	  background-color: #97310e;
+	}
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus {
+	  color: #ffffff;
+	  background-color: #ae3910;
+	}
+	.navbar-inverse .navbar-nav > .disabled > a,
+	.navbar-inverse .navbar-nav > .disabled > a:hover,
+	.navbar-inverse .navbar-nav > .disabled > a:focus {
+	  color: #cccccc;
+	  background-color: transparent;
+	}
+	.navbar-inverse .navbar-toggle {
+	  border-color: #97310e;
+	}
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+	  background-color: #97310e;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+	  background-color: #ffffff;
+	}
+	.navbar-inverse .navbar-collapse,
+	.navbar-inverse .navbar-form {
+	  border-color: #bf3e11;
+	}
+	.navbar-inverse .navbar-nav > .open > a,
+	.navbar-inverse .navbar-nav > .open > a:hover,
+	.navbar-inverse .navbar-nav > .open > a:focus {
+	  background-color: #ae3910;
+	  color: #ffffff;
+	}
+}
